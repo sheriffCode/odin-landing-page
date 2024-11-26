@@ -71,7 +71,7 @@ img {
 }
 
 .btn {
-    background-color: #3882F6;
+    background-color: #3882f6;
     padding: 0.5em 2em;
     font-family: inherit;
     font-size: 1.125rem;
@@ -86,4 +86,30 @@ img {
 .hero-img {
     width: 45%;
     flex: 0 1 auto;
+}
+
+.latest-title {
+    text-align: center;
+    color: #1F2937;
+    font-size: 2.25rem;
+    font-weight: 900;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-bottom: 3em;
+}
+
+.card {
+    width: 200px;
+    text-align: center;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882f6;
+    border-radius: 1em;
 }
